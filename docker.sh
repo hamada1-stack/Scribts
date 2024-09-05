@@ -7,9 +7,9 @@
 
 echo " Step 1 Completed"
 
-modprobe kvm
-modprobe kvm_intel
-modprobe kvm_amd
+sudo modprobe kvm
+sudo modprobe kvm_intel
+sudo modprobe kvm_amd
 sudo usermod -aG kvm $USER
 
 
