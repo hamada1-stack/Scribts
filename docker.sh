@@ -32,7 +32,7 @@ sudo apt install gnome-terminal
 cd ~
 cd ./Downloads
 wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb
-sudo apt install ./docker-desktop-amd64.deb
+sudo dpkg -i ./docker-desktop-amd64.deb
 
 echo "Step 3 COmpleted"
 
